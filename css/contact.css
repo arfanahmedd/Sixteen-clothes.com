@@ -1,0 +1,88 @@
+.imy{
+    background-image: url(../images/contact-heading.jpg);
+    padding: 166px  0px 130px 0px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-col{
+    /* margin-left: 20px; */
+   
+}
+.pe{
+    font-size: 2rem;
+}
+.left-col iframe{
+    /* width: 400px; */
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.map{
+    width: 80%;
+    margin: auto;
+}
+.pera {
+    font-size:.9em;
+    color: rgb(94, 87, 87);
+
+    padding: 2% 0;
+        
+}
+.sub{
+    margin: 0;
+}
+@media screen and (max-width:680px){
+    .sub{
+        margin: 0;
+    width: 100%;
+    margin-top: 20%;
+
+    }
+    .icnn i{
+        background: #e6e6da;
+        color: rgb(0, 0, 0);
+    
+    
+    }
+    .icnn:hover{
+        background: tomato;
+        color: rgb(0, 0, 0);
+    }
+    .icnn:hover i{
+        background: tomato;
+        color: white;
+    }
+}
+.bb{
+    padding-bottom: 18%;
+    border-bottom: 1px solid rgba(201, 193, 193, 0.63);
+}
+.icnn {
+    display: flex;
+    justify-content: center;
+    width: 11%;
+    margin: 2%;
+    padding: 3%;
+    height: 15%;
+    align-items: center;
+    background: rgba(235, 231, 231, 0.589);
+}
+
+.icnn:hover {
+    background: tomato;
+    color: white;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+ .ta{
+    height: 200px;
+}
+
+.happpy{
+    margin: auto;
+    padding: auto;
+}

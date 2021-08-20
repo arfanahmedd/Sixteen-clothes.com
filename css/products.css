@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin: 0;
+    
+}
+
+.headerr{
+    padding: 162px 0px 231px 0px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: 0;
+}
+.header-text h4{
+    color: tomato;
+    font-weight: bold;
+}
+.header-text h1{
+    color: rgb(255, 255, 255);
+    letter-spacing: 7px;
+}
+.ig{
+    background-image: url(../images/products-heading.jpg);
+}
+
+
+
+
+.filterDiv {
+    float: left;
+    text-align: center;
+    display: none;
+    transition: 2s;
+    margin: 10px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  #myBtnContainer{
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 1px solid rgba(126, 121, 121, 0.26);
+
+  }
+  .btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: bold;
+    margin: 5px;
+  }
+  
+  .btn:hover {
+      color: rgb(245, 60, 28);
+  }
+  
+  .btn.active {
+    color: rgb(240, 69, 69);
+  }
+  .containerr{
+      margin-left: 12%;
+  }
+  .page-btn{
+      font-size: 15px;
+      transition: .5s;
+  }
+  .page-btn:hover{
+      background: tomato;
+      color: white;
+  }
+  .footer{
+      text-align: center;
+      font-size: 13px;
+      margin-top: 7%;
+      margin-bottom: 3%;
+   
+  }
+  span{
+      color: tomato;
+  }
+  @media screen and (max-width: 360px){
+      .containerr{
+          margin: auto;
+      }
+      .sbc{
+          margin: 3%;
+      }
+      #myBtnContainer {
+          margin: auto;
+    }
+  }
